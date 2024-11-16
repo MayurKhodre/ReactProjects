@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.main-div{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.color-tray{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
